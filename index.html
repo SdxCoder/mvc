@@ -16,6 +16,29 @@
 
   <title>myvoicecountsweb</title>
   <link rel="manifest" href="/manifest.json">
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.9.1/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.9.1/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyAfmaxlVga1-VD2Q5_OPjcOnsAxbslET2Y",
+    authDomain: "myvoicecounts-60c77.firebaseapp.com",
+    databaseURL: "https://myvoicecounts-60c77.firebaseio.com",
+    projectId: "myvoicecounts-60c77",
+    storageBucket: "myvoicecounts-60c77.appspot.com",
+    messagingSenderId: "1006500866934",
+    appId: "1:1006500866934:web:5cb05c6de657ed9990a857",
+    measurementId: "G-GH3CYMVHDF"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
 </head>
 <body>
   <!-- This script installs service_worker.js to provide PWA functionality to
