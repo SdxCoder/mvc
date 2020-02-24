@@ -16,20 +16,35 @@
 
   <title>myvoicecountsweb</title>
   <link rel="manifest" href="/manifest.json">
-  <!-- The core Firebase JS SDK is always required and must be listed first -->
+  
 
 
 
 </head>
 <body>
-  <!-- This script installs service_worker.js to provide PWA functionality to
-       application. For more information, see:
-       https://developers.google.com/web/fundamentals/primers/service-workers -->
+      <!-- The core Firebase JS SDK is always required and must be listed first - CDN -->
+
       <script src="https://www.gstatic.com/firebasejs/7.9.1/firebase-app.js"></script>
 
-<!-- TODO: Add SDKs for Firebase products that you want to use
-     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+      <!-- Add Firebase products that you want to use - CDN -->
+      <script src="https://www.gstatic.com/firebasejs/7.9.1/firebase-firestore.js"></script>
+      <script src="https://www.gstatic.com/firebasejs/7.9.1/firebase-auth.js"></script>
+      <script src="https://www.gstatic.com/firebasejs/7.9.1/firebase-storage.js"></script>
       <script src="https://www.gstatic.com/firebasejs/7.9.1/firebase-analytics.js"></script>
+      
+    
+      <!-- The core Firebase JS SDK is always required and must be listed first - Reserved URLS -->
+      <!-- <script src="/__/firebase/7.9.1/firebase-app.js"></script> -->
+
+      <!-- Add Firebase products that you want to use - Reserved URLS -->
+     
+      <!-- <script src="/__/firebase/7.9.1/firebase-auth.js"></script>
+      <script src="/__/firebase/7.9.1/firebase-firestore.js"></script>
+      <script src="/__/firebase/7.9.1/firebase-storage.js"></script>
+      <script src="/__/firebase/7.9.1/firebase-analytics.js"></script>
+      <script src="/__/firebase/init.js"></script> -->
+
       <script>
         // Your web app's Firebase configuration
         var firebaseConfig = {
